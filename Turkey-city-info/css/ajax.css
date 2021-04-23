@@ -1,0 +1,72 @@
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'helvetica neue';
+}
+
+body h2{
+    font-size:4rem ;
+    padding: 1rem 0;
+    background-color: grey;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+body input{
+    border: 5px solid rgb(221, 221, 221);
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 3px;
+   
+}
+
+input::-webkit-input-placeholder {
+    font-size: 1.5rem;
+    
+}
+
+
+input:focus{
+    outline: none;
+}
+
+.hl{
+    background-color: yellow;
+}
+
+.sug{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.sug li{
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: rgb(226, 217, 217);
+    width: 20rem;
+    
+   
+}
+
+.sug li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
